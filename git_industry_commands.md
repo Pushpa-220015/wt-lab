@@ -50,3 +50,5 @@ GIT CONFIGURATION COMMANDS
 --deletes file from repo
 >>git mv
 --rename file
+![alt text](<branch commands.png>)
+
