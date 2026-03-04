@@ -50,5 +50,44 @@ GIT CONFIGURATION COMMANDS
 --deletes file from repo
 >>git mv
 --rename file
+
+
+5)COMMIT COMMANDS
+>>git commit -m "message"
+--commit with  message
+>>git commit --amend
+--edit last message
+>>git commit --no-edit
+--amend without editing message
+![alt text](<commit commands.png>)
+
+6)BRANCH MANAGEMENT COMMANDS
+>>git branch
+-- shows branches
+>>git branch new_branch
+--creates a new branch
+>>git checkout branch_name
+--switch to another brach
+>>git merge branch_name
+--merge another branch into current branch
 ![alt text](<branch commands.png>)
 
+7)REMOTE REPOSITORY COMMANDS
+>>git remote
+-- shows the remote repository names connecyed to your local repo
+>>git remote  -v
+--shows remote URLs
+>>git remote add
+-- adds a new remote repository
+>>git remote remove
+--removes a remote connection
+>>git fetch
+--downloads latest changes from remote but does not merge
+>>git fetch -all
+--fetches from all remotes
+>>git pull
+--fetch + merge in one command
+>>git pull --rebase
+-- fecth+rebase instead of merge
+>>git push
+-- uploads local commits to remote repository
