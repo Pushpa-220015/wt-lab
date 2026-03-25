@@ -91,3 +91,4 @@ GIT CONFIGURATION COMMANDS
 -- fecth+rebase instead of merge
 >>git push
 -- uploads local commits to remote repository
+8)stash commands
